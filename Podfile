@@ -8,6 +8,8 @@ target 'TestFramework' do
   # Pods for TestFramework
 
   pod 'CryptoSwift', '~> 1.0'
+  pod 'SwiftProtobuf', '~> 1.0'
+  pod 'Curve25519'
 
   target 'TestFrameworkTests' do
     # Pods for testing

@@ -8,11 +8,16 @@
 
 import Foundation
 import CryptoSwift
+import Curve25519
 
 public class Main {
     
     public init() {
         print(try? HMAC(key: "kekus"))
+    }
+    
+    public func keyLenght() -> Int {
+        Curve25519.keyLength
     }
     
 }

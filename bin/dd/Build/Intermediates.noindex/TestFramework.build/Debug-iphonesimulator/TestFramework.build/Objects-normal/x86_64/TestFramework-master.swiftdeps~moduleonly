@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+options: "337c42c3ece886d2fae61b58a4f4f432"
+build_time: [1588764569, 798685000]
+inputs:
+  "/Users/zhn/Documents/xcode/TestFramework/TestFramework/Main.swift": [1588760899, 635277805]

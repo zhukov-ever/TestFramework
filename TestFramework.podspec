@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TestFramework"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Test Framework for iOS"
   s.description  = "Any text"
   s.homepage     = "https://github.com/zhukov-ever/TestFramework"

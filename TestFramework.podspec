@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
-  s.name         = "MyKit"
+  s.name         = "TestFramework"
   s.version      = "1.0.0"
-  s.summary      = "MyKit for iOS"
+  s.summary      = "Test Framework for iOS"
   s.description  = "Any text"
-  s.homepage     = "https://github.com/atereshkov/mykit"
+  s.homepage     = "https://github.com/zhukov-ever/TestFramework"
   s.license      = "MIT"
-  s.author    = "Nikita Zhukov"
-  s.platform = :ios, "12.0"
-  s.source       = { :git => "https://github.com/atereshkov/mykit.git", :tag => "#{s.version}" }
-  s.frameworks = 'UIKit', 'WebKit'
-  s.dependency 'Alamofire', '~> 4.8'
+  s.author       = "Nikita Zhukov"
+  s.platform     = :ios, "12.0"
+  s.source       = { :git => "https://github.com/zhukov-ever/TestFramework.git", :tag => "#{s.version}" }
+ # s.frameworks   = 'UIKit'
+  s.dependency 'CryptoSwift', '~> 1.0'
   s.ios.vendored_frameworks = "Framework/TestFramework.framework"
-  s.swift_version = "4.2"
+  s.swift_version = "5.2"
 end
